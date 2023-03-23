@@ -29,7 +29,7 @@ function main() {
     sec += mill / 1000;
     return (sec / 60) * 360;
   }
-  requestAnimationFrame(main);
+  requestAnimationFrame(main)
 }
 
 requestAnimationFrame(main);
